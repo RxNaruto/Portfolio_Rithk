@@ -64,7 +64,7 @@ export default function Navbar({
             className="w-4 h-4 dark:invert"
           />
         </button>
-
+        
         {/* 🌙 Dark Mode Button */}
         <button
           onClick={() => setDark(!dark)}
