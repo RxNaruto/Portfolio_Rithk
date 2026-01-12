@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function App(): JSX.Element {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   return (
     <div className={`${dark ? "dark" : ""} font-[var(--font-family-poppins)]`}>
