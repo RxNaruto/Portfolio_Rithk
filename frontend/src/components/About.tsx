@@ -28,11 +28,17 @@ export default function About(): JSX.Element {
           </h3>
 
           <p className="text-gray-600 dark:text-gray-300 mt-2">
-            Fresher <br />
-            Actively building projects
+            Amdocs <br />
+            Software Developer
           </p>
+          {/* Year Badge */}
+          <span className="inline-block mt-3 px-4 py-1 text-sm rounded-full 
+                           bg-gray-100 text-gray-700
+                           dark:bg-neutral-800 dark:text-gray-300">
+            January 2026 – Present
+          </span>
         </div>
-
+ 
         {/* Education Card */}
         <div className="border rounded-2xl p-6 w-full md:w-80 text-center
                         bg-white dark:bg-neutral-900 dark:border-neutral-700
